@@ -22,5 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('job', jobsAPI),
     path('job/<int:id>', jobsAPI),
-    path('apply',appliedJobsAPI)
+    path('apply',appliedJobsAPI),
+    path('apply/<int:id>',appliedJobsAPI),
+
+
 ]
